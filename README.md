@@ -1,6 +1,6 @@
 # Camera Mask Effect
 
-<video src="https://github.com/mahdidavoodi7/expo-camera-masked-blur/raw/refs/heads/main/video.mp4" controls loop muted width="720">Your browser does not support the video tag.</video>
+https://github.com/user-attachments/assets/bd38e8e9-1fa2-45ac-a552-c1407895033a
 
 A React Native app that uses your camera feed as a dynamic background behind a frosted glass UI. The text and user list act as a mask, revealing the live camera through them.
 
