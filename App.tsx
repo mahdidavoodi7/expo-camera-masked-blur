@@ -1,5 +1,5 @@
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { CameraContainer } from './components/Camera';
+import { CameraContainer } from './components/Scene';
 
 
 export default function App() {

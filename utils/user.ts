@@ -1,7 +1,5 @@
-import { FIRST_NAMES, LAST_NAMES } from '../constants/camera';
+import { FIRST_NAMES, LAST_NAMES } from "../constants";
 
-// ------------------------------------------------------
-// TYPES
 // ------------------------------------------------------
 export interface User {
   fullName: string;

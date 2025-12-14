@@ -13,12 +13,12 @@ import { PermissionState } from './PermissionState';
 
 // Utils & Constants
 import { generateUsers } from '../utils/user';
-import { 
-  USER_LIST_COUNT, 
-  CAMERA_ZOOM, 
-  BLUR_INTENSITY_PRIMARY, 
-  BLUR_INTENSITY_SECONDARY 
-} from '../constants/camera';
+import {
+  USER_LIST_COUNT,
+  CAMERA_ZOOM,
+  BLUR_INTENSITY_PRIMARY,
+  BLUR_INTENSITY_SECONDARY
+} from '../constants';
 
 // ------------------------------------------------------
 // MAIN COMPONENT
@@ -32,9 +32,9 @@ export const CameraContainer = () => {
   // Show permission state UI if camera is not ready
   if (!isReady) {
     return (
-      <PermissionState 
-        status={status} 
-        onRequestPermission={requestPermission} 
+      <PermissionState
+        status={status}
+        onRequestPermission={requestPermission}
       />
     );
   }
@@ -49,7 +49,7 @@ export const CameraContainer = () => {
         {/* Layered blur effects for frosted glass appearance */}
         <BlurView style={styles.blurOverlay} intensity={BLUR_INTENSITY_PRIMARY} />
         <BlurView style={styles.blurOverlay} intensity={BLUR_INTENSITY_SECONDARY} />
-        
+
         {/* Camera feed as background */}
         <CameraView zoom={CAMERA_ZOOM} style={styles.camera} />
       </MaskedView>
