@@ -3,7 +3,7 @@
 Your camera feed as a living background, shining through the UI itself. The text and
 avatars are cutouts, and the world moves behind them.
 
-A free drop from **Motionary**. The whole flock lives at **https://motionary.dev**.
+A free drop from **Motionary**. The whole flock lives at **https://motionary.dev**. Related: [Which React Native BlurView to use](https://motionary.dev/blog/react-native-blur-background).
 
 https://github.com/user-attachments/assets/bd38e8e9-1fa2-45ac-a552-c1407895033a
 
